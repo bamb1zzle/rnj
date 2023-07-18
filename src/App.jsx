@@ -1,6 +1,6 @@
 import styles from "./style";
 import { Footer, Navbar, Testimonials, Hero } from "./components";
-// import {ReadingList} from "./components/ReadingList";
+import ReadingList from "./components/ReadingList";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -18,7 +18,7 @@ const App = () => (
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        {/* <ReadingList /> */}
+        <ReadingList />
         <Testimonials />
         <Footer />
       </div>
